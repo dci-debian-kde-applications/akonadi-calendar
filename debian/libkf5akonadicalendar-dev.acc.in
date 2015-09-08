@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<descriptor>
+
+<version>
+    15.07.90
+</version>
+
+<headers>
+    /usr/include/KF5/Akonadi/Calendar/
+    /usr/include/KF5/akonadi-calendar_version.h
+    /usr/include/KF5/akonadi/calendar/
+</headers>
+
+<libs>
+    /usr/lib/@@DEB_HOST_MULTIARCH@@/libKF5AkonadiCalendar.so
+</libs>
+
+<gcc_options>
+    -fPIC
+    -DQT_NO_SIGNALS_SLOTS_KEYWORDS
+</gcc_options>
+
+</descriptor>
