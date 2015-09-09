@@ -17,7 +17,7 @@
 
 <gcc_options>
     -fPIC
-    -DQT_NO_SIGNALS_SLOTS_KEYWORDS
+    -std=c++11
 </gcc_options>
 
 </descriptor>
