@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:15.08.1+git20150917.2338 amd64 i386
+# SymbolsHelper-Confirmed: 15.07.90 amd64
 libKF5AkonadiCalendar.so.5 libkf5akonadicalendar5 #MINVER#
  _ZN7Akonadi10TodoPurger11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi10TodoPurger11qt_metacastEPKc@Base 15.07.90
@@ -7,6 +7,15 @@ libKF5AkonadiCalendar.so.5 libkf5akonadicalendar5 #MINVER#
  _ZN7Akonadi10TodoPurger16staticMetaObjectE@Base 15.07.90
  _ZN7Akonadi10TodoPurger18setIncidenceChagerEPNS_16IncidenceChangerE@Base 15.07.90
  _ZN7Akonadi10TodoPurger19purgeCompletedTodosEv@Base 15.07.90
+ _ZN7Akonadi10TodoPurger7Private11deleteTodosEv@Base 15.07.90
+ _ZN7Akonadi10TodoPurger7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
+ _ZN7Akonadi10TodoPurger7Private11qt_metacastEPKc@Base 15.07.90
+ _ZN7Akonadi10TodoPurger7Private14onItemsDeletedEiRK7QVectorIxENS_16IncidenceChanger10ResultCodeERK7QString@Base 15.07.90
+ _ZN7Akonadi10TodoPurger7Private15treeIsDeletableERK14QSharedPointerIN8KCalCore4TodoEE@Base 15.07.90
+ _ZN7Akonadi10TodoPurger7Private16onCalendarLoadedEbRK7QString@Base 15.07.90
+ _ZN7Akonadi10TodoPurger7Private16staticMetaObjectE@Base 15.07.90
+ _ZN7Akonadi10TodoPurger7PrivateC1EPS0_@Base 15.07.90
+ _ZN7Akonadi10TodoPurger7PrivateC2EPS0_@Base 15.07.90
  _ZN7Akonadi10TodoPurgerC1EP7QObject@Base 15.07.90
  _ZN7Akonadi10TodoPurgerC2EP7QObject@Base 15.07.90
  _ZN7Akonadi10TodoPurgerD0Ev@Base 15.07.90
@@ -45,6 +54,22 @@ libKF5AkonadiCalendar.so.5 libkf5akonadicalendar5 #MINVER#
  _ZN7Akonadi11ITIPHandler20informationPublishedENS0_6ResultERK7QString@Base 15.07.90
  _ZN7Akonadi11ITIPHandler21setShowDialogsOnErrorEb@Base 15.07.90
  _ZN7Akonadi11ITIPHandler22setGroupwareUiDelegateEPNS_19GroupwareUiDelegateE@Base 15.07.90
+ _ZN7Akonadi11ITIPHandler7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
+ _ZN7Akonadi11ITIPHandler7Private11qt_metacastEPKc@Base 15.07.90
+ _ZN7Akonadi11ITIPHandler7Private14onLoadFinishedEbRK7QString@Base 15.07.90
+ _ZN7Akonadi11ITIPHandler7Private16onHelperFinishedENS_17ITIPHandlerHelper10SendResultERK7QString@Base 15.07.90
+ _ZN7Akonadi11ITIPHandler7Private16staticMetaObjectE@Base 15.07.90
+ _ZN7Akonadi11ITIPHandler7Private19onSchedulerFinishedENS_9Scheduler6ResultERK7QString@Base 15.07.90
+ _ZN7Akonadi11ITIPHandler7Private21finishSendAsICalendarENS_9Scheduler6ResultERK7QString@Base 15.07.90
+ _ZN7Akonadi11ITIPHandler7Private21finishSendiTIPMessageENS_9Scheduler6ResultERK7QString@Base 15.07.90
+ _ZN7Akonadi11ITIPHandler7Private24finishProcessiTIPMessageENS_9Scheduler6ResultERK7QString@Base 15.07.90
+ _ZN7Akonadi11ITIPHandler7Private24finishPublishInformationENS_9Scheduler6ResultERK7QString@Base 15.07.90
+ _ZN7Akonadi11ITIPHandler7Private26onHelperModifyDialogClosedENS_17ITIPHandlerHelper10SendResultEN8KCalCore10iTIPMethodERK14QSharedPointerINS4_9IncidenceEE@Base 15.07.90
+ _ZN7Akonadi11ITIPHandler7Private33onCounterProposalDelegateFinishedEbRK7QString@Base 15.07.90
+ _ZN7Akonadi11ITIPHandler7Private8calendarEv@Base 15.07.90
+ _ZN7Akonadi11ITIPHandler7Private8isLoadedEv@Base 15.07.90
+ _ZN7Akonadi11ITIPHandler7PrivateC1EPNS_27ITIPHandlerComponentFactoryEPS0_@Base 15.07.90
+ _ZN7Akonadi11ITIPHandler7PrivateC2EPNS_27ITIPHandlerComponentFactoryEPS0_@Base 15.07.90
  _ZN7Akonadi11ITIPHandlerC1EP7QObject@Base 15.07.90
  _ZN7Akonadi11ITIPHandlerC1EPNS_27ITIPHandlerComponentFactoryEP7QObject@Base 15.07.90
  _ZN7Akonadi11ITIPHandlerC2EP7QObject@Base 15.07.90
@@ -84,12 +109,34 @@ libKF5AkonadiCalendar.so.5 libkf5akonadicalendar5 #MINVER#
  _ZN7Akonadi12ICalImporter21importIntoNewResourceERK7QString@Base 15.07.90
  _ZN7Akonadi12ICalImporter26importIntoExistingFinishedEbi@Base 15.07.90
  _ZN7Akonadi12ICalImporter26importIntoExistingResourceERK4QUrlNS_10CollectionE@Base 15.07.90
+ _ZN7Akonadi12ICalImporter7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
+ _ZN7Akonadi12ICalImporter7Private11qt_metacastEPKc@Base 15.07.90
+ _ZN7Akonadi12ICalImporter7Private15resourceCreatedEP4KJob@Base 15.07.90
+ _ZN7Akonadi12ICalImporter7Private15setErrorMessageERK7QString@Base 15.07.90
+ _ZN7Akonadi12ICalImporter7Private16staticMetaObjectE@Base 15.07.90
+ _ZN7Akonadi12ICalImporter7Private18onIncidenceCreatedEiRKNS_4ItemENS_16IncidenceChanger10ResultCodeERK7QString@Base 15.07.90
+ _ZN7Akonadi12ICalImporter7Private22remoteDownloadFinishedEPN3KIO3JobERK10QByteArray@Base 15.07.90
+ _ZN7Akonadi12ICalImporter7PrivateC1EPNS_16IncidenceChangerEPS0_@Base 15.07.90
+ _ZN7Akonadi12ICalImporter7PrivateC2EPNS_16IncidenceChangerEPS0_@Base 15.07.90
+ _ZN7Akonadi12ICalImporter7PrivateD0Ev@Base 15.07.90
+ _ZN7Akonadi12ICalImporter7PrivateD1Ev@Base 15.07.90
+ _ZN7Akonadi12ICalImporter7PrivateD2Ev@Base 15.07.90
  _ZN7Akonadi12ICalImporterC1EPNS_16IncidenceChangerEP7QObject@Base 15.07.90
  _ZN7Akonadi12ICalImporterC2EPNS_16IncidenceChangerEP7QObject@Base 15.07.90
  _ZN7Akonadi13PublishDialog11addAttendeeERK14QSharedPointerIN8KCalCore8AttendeeEE@Base 15.07.90
  _ZN7Akonadi13PublishDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi13PublishDialog11qt_metacastEPKc@Base 15.07.90
  _ZN7Akonadi13PublishDialog16staticMetaObjectE@Base 15.07.90
+ _ZN7Akonadi13PublishDialog7Private10removeItemEv@Base 15.07.90
+ _ZN7Akonadi13PublishDialog7Private10updateItemEv@Base 15.07.90
+ _ZN7Akonadi13PublishDialog7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
+ _ZN7Akonadi13PublishDialog7Private11qt_metacastEPKc@Base 15.07.90
+ _ZN7Akonadi13PublishDialog7Private11updateInputEv@Base 15.07.90
+ _ZN7Akonadi13PublishDialog7Private15openAddressbookEv@Base 15.07.90
+ _ZN7Akonadi13PublishDialog7Private16staticMetaObjectE@Base 15.07.90
+ _ZN7Akonadi13PublishDialog7Private7addItemEv@Base 15.07.90
+ _ZN7Akonadi13PublishDialog7PrivateC1EPS0_@Base 15.07.90
+ _ZN7Akonadi13PublishDialog7PrivateC2EPS0_@Base 15.07.90
  _ZN7Akonadi13PublishDialog8slotHelpEv@Base 15.07.90
  _ZN7Akonadi13PublishDialogC1EP7QWidget@Base 15.07.90
  _ZN7Akonadi13PublishDialogC2EP7QWidget@Base 15.07.90
@@ -149,6 +196,38 @@ libKF5AkonadiCalendar.so.5 libkf5akonadicalendar5 #MINVER#
  _ZN7Akonadi16IncidenceChanger23setAutoAdjustRecurrenceEb@Base 15.07.90
  _ZN7Akonadi16IncidenceChanger25setGroupwareCommunicationEb@Base 15.07.90
  _ZN7Akonadi16IncidenceChanger27setRespectsCollectionRightsEb@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private11qt_metacastEPKc@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private15loadCollectionsEv@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private15showErrorDialogENS0_10ResultCodeEP7QWidget@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private16adjustRecurrenceERK14QSharedPointerIN8KCalCore9IncidenceEES7_@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private16staticMetaObjectE@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private17cancelTransactionEv@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private17deleteIncidences2EiNS_17ITIPHandlerHelper10SendResultE@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private17queueModificationERK14QSharedPointerINS_6ChangeEE@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private18cleanupTransactionEv@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private19onCollectionsLoadedEP4KJob@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private19performModificationERK14QSharedPointerINS_6ChangeEE@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private20performModification2EiNS_17ITIPHandlerHelper10SendResultE@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private20step2CreateIncidenceERK14QSharedPointerINS_6ChangeEERKNS_10CollectionE@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private21handleCreateJobResultEP4KJob@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private21handleDeleteJobResultEP4KJob@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private21handleModifyJobResultEP4KJob@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private22collectionsForMimeTypeERK7QStringRK7QVectorINS_10CollectionEE@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private22handleCreateJobResult2EiNS_17ITIPHandlerHelper10SendResultE@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private22handleDeleteJobResult2EiNS_17ITIPHandlerHelper10SendResultE@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private22handleModifyJobResult2EiNS_17ITIPHandlerHelper10SendResultE@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private23myAttendeeStatusChangedERK14QSharedPointerIN8KCalCore9IncidenceEES7_RK11QStringList@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private23performNextModificationEx@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private26handleTransactionJobResultEP4KJob@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private28handleInvitationsAfterChangeERK14QSharedPointerINS_6ChangeEE@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private29handleInvitationsBeforeChangeERK14QSharedPointerINS_6ChangeEE@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7Private35step1DetermineDestinationCollectionERK14QSharedPointerINS_6ChangeEERKNS_10CollectionE@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7PrivateC1EbPNS_27ITIPHandlerComponentFactoryEPS0_@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7PrivateC2EbPNS_27ITIPHandlerComponentFactoryEPS0_@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7PrivateD0Ev@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7PrivateD1Ev@Base 15.07.90
+ _ZN7Akonadi16IncidenceChanger7PrivateD2Ev@Base 15.07.90
  _ZN7Akonadi16IncidenceChangerC1EP7QObject@Base 15.07.90
  _ZN7Akonadi16IncidenceChangerC1EPNS_27ITIPHandlerComponentFactoryEP7QObject@Base 15.07.90
  _ZN7Akonadi16IncidenceChangerC1EbP7QObject@Base 15.07.90
@@ -164,6 +243,20 @@ libKF5AkonadiCalendar.so.5 libkf5akonadicalendar5 #MINVER#
  _ZN7Akonadi17CalendarClipboard12cutIncidenceERK14QSharedPointerIN8KCalCore9IncidenceEENS0_4ModeE@Base 15.07.90
  _ZN7Akonadi17CalendarClipboard13copyIncidenceERK14QSharedPointerIN8KCalCore9IncidenceEENS0_4ModeE@Base 15.07.90
  _ZN7Akonadi17CalendarClipboard16staticMetaObjectE@Base 15.07.90
+ _ZN7Akonadi17CalendarClipboard7Private11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
+ _ZN7Akonadi17CalendarClipboard7Private11qt_metacastEPKc@Base 15.07.90
+ _ZN7Akonadi17CalendarClipboard7Private16staticMetaObjectE@Base 15.07.90
+ _ZN7Akonadi17CalendarClipboard7Private18slotDeleteFinishedEiRK7QVectorIxENS_16IncidenceChanger10ResultCodeERK7QString@Base 15.07.90
+ _ZN7Akonadi17CalendarClipboard7Private18slotModifyFinishedEiRKNS_4ItemENS_16IncidenceChanger10ResultCodeERK7QString@Base 15.07.90
+ _ZN7Akonadi17CalendarClipboard7Private21getIncidenceHierarchyERK14QSharedPointerIN8KCalCore9IncidenceEER11QStringList@Base 15.07.90
+ _ZN7Akonadi17CalendarClipboard7Private21makeChildsIndependentERK14QSharedPointerIN8KCalCore9IncidenceEE@Base 15.07.90
+ _ZN7Akonadi17CalendarClipboard7Private3cutERK14QSharedPointerIN8KCalCore9IncidenceEE@Base 15.07.90
+ _ZN7Akonadi17CalendarClipboard7Private3cutERK7QVectorI14QSharedPointerIN8KCalCore9IncidenceEEE@Base 15.07.90
+ _ZN7Akonadi17CalendarClipboard7PrivateC1ERK14QSharedPointerINS_12CalendarBaseEEPNS_16IncidenceChangerEPS0_@Base 15.07.90
+ _ZN7Akonadi17CalendarClipboard7PrivateC2ERK14QSharedPointerINS_12CalendarBaseEEPNS_16IncidenceChangerEPS0_@Base 15.07.90
+ _ZN7Akonadi17CalendarClipboard7PrivateD0Ev@Base 15.07.90
+ _ZN7Akonadi17CalendarClipboard7PrivateD1Ev@Base 15.07.90
+ _ZN7Akonadi17CalendarClipboard7PrivateD2Ev@Base 15.07.90
  _ZN7Akonadi17CalendarClipboardC1ERK14QSharedPointerINS_12CalendarBaseEEPNS_16IncidenceChangerEP7QObject@Base 15.07.90
  _ZN7Akonadi17CalendarClipboardC2ERK14QSharedPointerINS_12CalendarBaseEEPNS_16IncidenceChangerEP7QObject@Base 15.07.90
  _ZN7Akonadi17CalendarClipboardD0Ev@Base 15.07.90
@@ -269,6 +362,7 @@ libKF5AkonadiCalendar.so.5 libkf5akonadicalendar5 #MINVER#
  _ZN9QHashData9hasShrunkEv@Base 15.07.90
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 15.07.90
  _ZNK7Akonadi10TodoPurger10metaObjectEv@Base 15.07.90
+ _ZNK7Akonadi10TodoPurger7Private10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi10TodoPurger9lastErrorEv@Base 15.07.90
  _ZNK7Akonadi11ETMCalendar10collectionEx@Base 15.07.90
  _ZNK7Akonadi11ETMCalendar10metaObjectEv@Base 15.07.90
@@ -281,6 +375,7 @@ libKF5AkonadiCalendar.so.5 libkf5akonadicalendar5 #MINVER#
  _ZNK7Akonadi11ETMCalendar8hasRightERKNS_4ItemENS_10Collection5RightE@Base 15.07.90
  _ZNK7Akonadi11ETMCalendar8isLoadedEv@Base 15.07.90
  _ZNK7Akonadi11ITIPHandler10metaObjectEv@Base 15.07.90
+ _ZNK7Akonadi11ITIPHandler7Private10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi11ITIPHandler8calendarEv@Base 15.07.90
  _ZNK7Akonadi12CalendarBase10childItemsERK7QString@Base 15.07.90
  _ZNK7Akonadi12CalendarBase10childItemsERKx@Base 15.07.90
@@ -297,7 +392,9 @@ libKF5AkonadiCalendar.so.5 libkf5akonadicalendar5 #MINVER#
  _ZNK7Akonadi12CalendarBase8itemListERK7QVectorI14QSharedPointerIN8KCalCore9IncidenceEEE@Base 15.07.90
  _ZNK7Akonadi12ICalImporter10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi12ICalImporter12errorMessageEv@Base 15.07.90
+ _ZNK7Akonadi12ICalImporter7Private10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi13PublishDialog10metaObjectEv@Base 15.07.90
+ _ZNK7Akonadi13PublishDialog7Private10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi13PublishDialog9addressesEv@Base 15.07.90
  _ZNK7Akonadi15FreeBusyManager10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi16FetchJobCalendar10metaObjectEv@Base 15.07.90
@@ -313,9 +410,17 @@ libKF5AkonadiCalendar.so.5 libkf5akonadicalendar5 #MINVER#
  _ZNK7Akonadi16IncidenceChanger20autoAdjustRecurrenceEv@Base 15.07.90
  _ZNK7Akonadi16IncidenceChanger22groupwareCommunicationEv@Base 15.07.90
  _ZNK7Akonadi16IncidenceChanger24respectsCollectionRightsEv@Base 15.07.90
+ _ZNK7Akonadi16IncidenceChanger7Private10metaObjectEv@Base 15.07.90
+ _ZNK7Akonadi16IncidenceChanger7Private19deleteAlreadyCalledEx@Base 15.07.90
+ _ZNK7Akonadi16IncidenceChanger7Private20allowAtomicOperationEiRK14QSharedPointerINS_6ChangeEE@Base 15.07.90
+ _ZNK7Akonadi16IncidenceChanger7Private20isLoadingCollectionsEv@Base 15.07.90
+ _ZNK7Akonadi16IncidenceChanger7Private22atomicOperationIsValidEj@Base 15.07.90
+ _ZNK7Akonadi16IncidenceChanger7Private9hasRightsERKNS_10CollectionENS0_10ChangeTypeE@Base 15.07.90
+ _ZNK7Akonadi16IncidenceChanger7Private9parentJobERK14QSharedPointerINS_6ChangeEE@Base 15.07.90
  _ZNK7Akonadi16IncidenceChanger7historyEv@Base 15.07.90
  _ZNK7Akonadi17CalendarClipboard10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi17CalendarClipboard14pasteAvailableEv@Base 15.07.90
+ _ZNK7Akonadi17CalendarClipboard7Private10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi19GroupwareUiDelegate10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi20BlockAlarmsAttribute10serializedEv@Base 15.07.90
  _ZNK7Akonadi20BlockAlarmsAttribute18isAlarmTypeBlockedEN8KCalCore5Alarm4TypeE@Base 15.07.90
@@ -347,16 +452,22 @@ libKF5AkonadiCalendar.so.5 libkf5akonadicalendar5 #MINVER#
  _ZNK7Akonadi7History7Private10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi7History7Private9redoCountEv@Base 15.07.90
  _ZNK7Akonadi7History7Private9undoCountEv@Base 15.07.90
+ _ZTIN7Akonadi10TodoPurger7PrivateE@Base 15.07.90
  _ZTIN7Akonadi10TodoPurgerE@Base 15.07.90
  _ZTIN7Akonadi11ETMCalendarE@Base 15.07.90
+ _ZTIN7Akonadi11ITIPHandler7PrivateE@Base 15.07.90
  _ZTIN7Akonadi11ITIPHandlerE@Base 15.07.90
  _ZTIN7Akonadi12CalendarBaseE@Base 15.07.90
+ _ZTIN7Akonadi12ICalImporter7PrivateE@Base 15.07.90
  _ZTIN7Akonadi12ICalImporterE@Base 15.07.90
+ _ZTIN7Akonadi13PublishDialog7PrivateE@Base 15.07.90
  _ZTIN7Akonadi13PublishDialogE@Base 15.07.90
  _ZTIN7Akonadi15FreeBusyManagerE@Base 15.07.90
  _ZTIN7Akonadi16CalendarSettingsE@Base 15.07.90
  _ZTIN7Akonadi16FetchJobCalendarE@Base 15.07.90
+ _ZTIN7Akonadi16IncidenceChanger7PrivateE@Base 15.07.90
  _ZTIN7Akonadi16IncidenceChangerE@Base 15.07.90
+ _ZTIN7Akonadi17CalendarClipboard7PrivateE@Base 15.07.90
  _ZTIN7Akonadi17CalendarClipboardE@Base 15.07.90
  _ZTIN7Akonadi19GroupwareUiDelegateE@Base 15.07.90
  _ZTIN7Akonadi20BlockAlarmsAttributeE@Base 15.07.90
@@ -366,16 +477,22 @@ libKF5AkonadiCalendar.so.5 libkf5akonadicalendar5 #MINVER#
  _ZTIN7Akonadi29StandardCalendarActionManagerE@Base 15.07.90
  _ZTIN7Akonadi7History7PrivateE@Base 15.07.90
  _ZTIN7Akonadi7HistoryE@Base 15.07.90
+ _ZTSN7Akonadi10TodoPurger7PrivateE@Base 15.07.90
  _ZTSN7Akonadi10TodoPurgerE@Base 15.07.90
  _ZTSN7Akonadi11ETMCalendarE@Base 15.07.90
+ _ZTSN7Akonadi11ITIPHandler7PrivateE@Base 15.07.90
  _ZTSN7Akonadi11ITIPHandlerE@Base 15.07.90
  _ZTSN7Akonadi12CalendarBaseE@Base 15.07.90
+ _ZTSN7Akonadi12ICalImporter7PrivateE@Base 15.07.90
  _ZTSN7Akonadi12ICalImporterE@Base 15.07.90
+ _ZTSN7Akonadi13PublishDialog7PrivateE@Base 15.07.90
  _ZTSN7Akonadi13PublishDialogE@Base 15.07.90
  _ZTSN7Akonadi15FreeBusyManagerE@Base 15.07.90
  _ZTSN7Akonadi16CalendarSettingsE@Base 15.07.90
  _ZTSN7Akonadi16FetchJobCalendarE@Base 15.07.90
+ _ZTSN7Akonadi16IncidenceChanger7PrivateE@Base 15.07.90
  _ZTSN7Akonadi16IncidenceChangerE@Base 15.07.90
+ _ZTSN7Akonadi17CalendarClipboard7PrivateE@Base 15.07.90
  _ZTSN7Akonadi17CalendarClipboardE@Base 15.07.90
  _ZTSN7Akonadi19GroupwareUiDelegateE@Base 15.07.90
  _ZTSN7Akonadi20BlockAlarmsAttributeE@Base 15.07.90
@@ -385,16 +502,22 @@ libKF5AkonadiCalendar.so.5 libkf5akonadicalendar5 #MINVER#
  _ZTSN7Akonadi29StandardCalendarActionManagerE@Base 15.07.90
  _ZTSN7Akonadi7History7PrivateE@Base 15.07.90
  _ZTSN7Akonadi7HistoryE@Base 15.07.90
+ _ZTVN7Akonadi10TodoPurger7PrivateE@Base 15.07.90
  _ZTVN7Akonadi10TodoPurgerE@Base 15.07.90
  _ZTVN7Akonadi11ETMCalendarE@Base 15.07.90
+ _ZTVN7Akonadi11ITIPHandler7PrivateE@Base 15.07.90
  _ZTVN7Akonadi11ITIPHandlerE@Base 15.07.90
  _ZTVN7Akonadi12CalendarBaseE@Base 15.07.90
+ _ZTVN7Akonadi12ICalImporter7PrivateE@Base 15.07.90
  _ZTVN7Akonadi12ICalImporterE@Base 15.07.90
+ _ZTVN7Akonadi13PublishDialog7PrivateE@Base 15.07.90
  _ZTVN7Akonadi13PublishDialogE@Base 15.07.90
  _ZTVN7Akonadi15FreeBusyManagerE@Base 15.07.90
  _ZTVN7Akonadi16CalendarSettingsE@Base 15.07.90
  _ZTVN7Akonadi16FetchJobCalendarE@Base 15.07.90
+ _ZTVN7Akonadi16IncidenceChanger7PrivateE@Base 15.07.90
  _ZTVN7Akonadi16IncidenceChangerE@Base 15.07.90
+ _ZTVN7Akonadi17CalendarClipboard7PrivateE@Base 15.07.90
  _ZTVN7Akonadi17CalendarClipboardE@Base 15.07.90
  _ZTVN7Akonadi19GroupwareUiDelegateE@Base 15.07.90
  _ZTVN7Akonadi20BlockAlarmsAttributeE@Base 15.07.90
@@ -404,6 +527,8 @@ libKF5AkonadiCalendar.so.5 libkf5akonadicalendar5 #MINVER#
  _ZTVN7Akonadi29StandardCalendarActionManagerE@Base 15.07.90
  _ZTVN7Akonadi7History7PrivateE@Base 15.07.90
  _ZTVN7Akonadi7HistoryE@Base 15.07.90
+ _ZZZN7Akonadi29StandardCalendarActionManager7PrivateC4EP17KActionCollectionP7QWidgetPS0_ENKUlvE0_clEvE15qstring_literal@Base 15.07.90
+ _ZZZN7Akonadi29StandardCalendarActionManager7PrivateC4EP17KActionCollectionP7QWidgetPS0_ENKUlvE_clEvE15qstring_literal@Base 15.07.90
  (c++)"non-virtual thunk to Akonadi::CalendarBase::~CalendarBase()@Base" 15.07.90
  (c++)"non-virtual thunk to Akonadi::ETMCalendar::~ETMCalendar()@Base" 15.07.90
  (c++)"non-virtual thunk to Akonadi::FetchJobCalendar::~FetchJobCalendar()@Base" 15.07.90
