@@ -45,15 +45,3 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: library providing calendar helpers for Akonadi items
  This library offers helper functions to integrate the use of Akonadi calendar
  items in applications.
-
-Package: libkf5akonadicalendar-dbg
-Section: debug
-Priority: extra
-Architecture: any
-Multi-Arch: same
-Depends: libkf5akonadicalendar5 (= ${binary:Version}), ${misc:Depends}
-Description: akonadi-calendar - debug symbols
- This library offers helper functions to integrate the use of Akonadi calendar
- items in applications.
- .
- This package contains the debug symbols.
