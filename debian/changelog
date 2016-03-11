@@ -1,3 +1,9 @@
+akonadi-calendar (4:15.12.1-0ubuntu2) xenial; urgency=medium
+
+  * Update build dep version.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 20:38:06 -0800
+
 akonadi-calendar (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
   [ Clive Johnston ]
@@ -8,7 +14,7 @@ akonadi-calendar (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
   [ Scarlett Clark ]
   * Bump build dependency versions. 
-  * 
+  * Fix merge.
 
  -- Clive Johnston <clivejo@aol.com>  Wed, 09 Mar 2016 10:20:07 +0100
 
