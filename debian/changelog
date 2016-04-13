@@ -1,3 +1,12 @@
+akonadi-calendar (15.12.0-3~1.gbp4ed230) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @4ed23096d55446cca7c155259b66349685d113d8 **
+
+  * Bump Standards-Version to 3.9.8
+  * Update symbols files from buildds logs (15.12.0-2).
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 13 Apr 2016 11:53:46 +0200
+
 akonadi-calendar (15.12.0-2) experimental; urgency=medium
 
   * Update build dependencies to follow the package version instead of
