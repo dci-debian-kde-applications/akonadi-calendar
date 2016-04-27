@@ -5,21 +5,21 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.14.0~),
-               kio-dev (>= 5.12.0~),
+               extra-cmake-modules (>= 5.17.0~),
+               kio-dev (>= 5.19.0~),
                libkf5akonadi-dev (>= 4:15.12~),
                libkf5akonadicontact-dev (>= 4:15.12~),
                libkf5calendarcore-dev (>= 4:15.12~),
                libkf5calendarutils-dev (>= 15.12~),
-               libkf5codecs-dev (>= 5.12.0~),
+               libkf5codecs-dev (>= 5.19.0~),
                libkf5contacts-dev (>= 15.12~),
                libkf5identitymanagement-dev (>= 15.12~),
                libkf5kdelibs4support-dev (>= 5.12.0~),
                libkf5mailtransport-dev (>= 15.12.0~),
-               libkf5wallet-dev (>= 5.12.0~),
+               libkf5wallet-dev (>= 5.19.0~),
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.2.0~)
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/kde/pim/akonadi-calendar
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-calendar.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-calendar.git
@@ -27,10 +27,10 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-calendar.gi
 Package: libkf5akonadicalendar-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5akonadi-dev (>= 4.86.0~),
+Depends: libkf5akonadi-dev (>= 5.2.0~),
          libkf5akonadicalendar5 (= ${binary:Version}),
-         libkf5akonadicontact-dev (>= 4.79.0~),
-         libkf5calendarcore-dev (>= 4.80.0~),
+         libkf5akonadicontact-dev (>= 5.2.0~),
+         libkf5calendarcore-dev (>= 5.2.0~),
          ${misc:Depends}
 Description: akonadi-calendar - development files
  This library offers helper functions to integrate the use of Akonadi calendar
