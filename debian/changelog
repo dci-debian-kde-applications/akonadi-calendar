@@ -1,6 +1,6 @@
-akonadi-calendar (16.04.0-1~2.gbpb2dc6e) UNRELEASED; urgency=medium
+akonadi-calendar (16.04.1-1~1.gbp78df2f) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @b2dc6ea970b8fadb90803dcdb4dec14983f61476 **
+  ** SNAPSHOT build @78df2f155480e7b75197d77b63bbacbe569ef5f8 **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @085129484fd5a0983ed6de1966ecfe7fe668509b **
@@ -10,6 +10,7 @@ akonadi-calendar (16.04.0-1~2.gbpb2dc6e) UNRELEASED; urgency=medium
   * Add a .gitattributes file to use dpkg-mergechangelogs
   * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
+  * Update symbols files.
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -17,7 +18,7 @@ akonadi-calendar (16.04.0-1~2.gbpb2dc6e) UNRELEASED; urgency=medium
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Update install files
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 27 Apr 2016 09:22:04 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 11 May 2016 00:51:15 +0200
 
 akonadi-calendar (15.12.0-2) experimental; urgency=medium
 
