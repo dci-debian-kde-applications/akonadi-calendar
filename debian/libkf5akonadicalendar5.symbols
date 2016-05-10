@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 15.12.0 amd64 arm64
+# SymbolsHelper-Confirmed: 16.04.0 armhf i386
 libKF5AkonadiCalendar.so.5 libkf5akonadicalendar5 #MINVER#
  _ZN7Akonadi10TodoPurger11qt_metacallEN11QMetaObject4CallEiPPv@Base 15.07.90
  _ZN7Akonadi10TodoPurger11qt_metacastEPKc@Base 15.07.90
@@ -267,7 +267,7 @@ libKF5AkonadiCalendar.so.5 libkf5akonadicalendar5 #MINVER#
  _ZN7Akonadi7HistoryD1Ev@Base 15.07.90
  _ZN7Akonadi7HistoryD2Ev@Base 15.07.90
  _ZN9QHashData9hasShrunkEv@Base 15.07.90
- (optional=templinst|arch=amd64)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 15.07.90
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 15.07.90
  _ZNK7Akonadi10TodoPurger10metaObjectEv@Base 15.07.90
  _ZNK7Akonadi10TodoPurger9lastErrorEv@Base 15.07.90
  _ZNK7Akonadi11ETMCalendar10collectionEx@Base 15.07.90
