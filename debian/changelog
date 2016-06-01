@@ -1,6 +1,6 @@
-akonadi-calendar (16.04.1-1~1.gbp78df2f) UNRELEASED; urgency=medium
+akonadi-calendar (16.04.1-1~2.gbp60606a) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @78df2f155480e7b75197d77b63bbacbe569ef5f8 **
+  ** SNAPSHOT build @60606a780eec79a2f086f5cc09cd0a410f6ad153 **
 
   [ Automatic packaging ]
   ** SNAPSHOT build @085129484fd5a0983ed6de1966ecfe7fe668509b **
@@ -17,8 +17,9 @@ akonadi-calendar (16.04.1-1~1.gbp78df2f) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Update install files
+  * Bump mailtransport build dependency
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 11 May 2016 00:51:15 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 01 Jun 2016 11:07:01 +0200
 
 akonadi-calendar (15.12.0-2) experimental; urgency=medium
 
