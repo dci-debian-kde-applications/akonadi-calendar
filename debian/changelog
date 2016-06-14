@@ -1,10 +1,11 @@
-akonadi-calendar (16.04.1-2~1.gbp06f985) UNRELEASED; urgency=medium
+akonadi-calendar (16.04.2-1~1.gbp3ecc73) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @06f9858100b9db83c6f058fdfefb665c82cfd59e **
+  ** SNAPSHOT build @3ecc73933632723672324e70aedf58ad9b8ab85f **
 
   * Update symbols files with the buildds results
+  * UNRELEASED
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 01 Jun 2016 19:48:00 +0200
+ -- Automatic packaging <jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 00:51:11 +0200
 
 akonadi-calendar (16.04.1-1) experimental; urgency=medium
 
