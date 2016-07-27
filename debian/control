@@ -15,7 +15,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5contacts-dev (>= 15.12~),
                libkf5identitymanagement-dev (>= 15.12~),
                libkf5kdelibs4support-dev (>= 5.12.0~),
-               libkf5mailtransport-dev (>= 15.12.0~),
+               libkf5mailtransport-dev (>= 16.04.0~),
                libkf5wallet-dev (>= 5.19.0~),
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.2.0~)
@@ -27,7 +27,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-calendar.gi
 Package: libkf5akonadicalendar-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5akonadi-dev (>= 5.2.0~),
+Depends: libkf5akonadi-dev (>= 4:5.2.0~),
          libkf5akonadicalendar5 (= ${binary:Version}),
          libkf5akonadicontact-dev (>= 5.2.0~),
          libkf5calendarcore-dev (>= 5.2.0~),
