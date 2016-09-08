@@ -27,10 +27,10 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-calendar.gi
 Package: libkf5akonadicalendar-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5akonadi-dev (>= 4:5.3.0~),
+Depends: libkf5akonadi-dev (>= 4:5.3.1~),
          libkf5akonadicalendar5 (= ${binary:Version}),
-         libkf5akonadicontact-dev (>= 5.3.0~),
-         libkf5calendarcore-dev (>= 5.3.0~),
+         libkf5akonadicontact-dev (>= 5.3.1~),
+         libkf5calendarcore-dev (>= 5.3.1~),
          ${misc:Depends}
 Description: akonadi-calendar - development files
  This library offers helper functions to integrate the use of Akonadi calendar
