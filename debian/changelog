@@ -1,6 +1,6 @@
-akonadi-calendar (16.08.1-1~1.gbpec3024) UNRELEASED; urgency=medium
+akonadi-calendar (16.08.2-1~1.gbpbf4678) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @ec302442205563b409e4fbfa7cfd8e9791020ad3 **
+  ** SNAPSHOT build @bf4678bcef87e992b5bf1feffa622f3c9f9a9061 **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @c4a3515cf33f4f93fcaf9e61f7d47064d1f68109 **
@@ -10,8 +10,9 @@ akonadi-calendar (16.08.1-1~1.gbpec3024) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 09 Sep 2016 00:51:36 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 14 Oct 2016 00:51:27 +0200
 
 akonadi-calendar (16.04.2-2) unstable; urgency=medium
 
