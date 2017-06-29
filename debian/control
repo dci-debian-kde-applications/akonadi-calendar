@@ -32,6 +32,7 @@ Depends: libkf5akonadi-dev (>= 4:5.2.0~),
          libkf5akonadicalendar5 (= ${binary:Version}),
          libkf5akonadicontact-dev (>= 5.2.0~),
          libkf5calendarcore-dev (>= 5.2.0~),
+         libkf5contacteditor-dev,
          ${misc:Depends}
 Description: akonadi-calendar - development files
  This library offers helper functions to integrate the use of Akonadi calendar
