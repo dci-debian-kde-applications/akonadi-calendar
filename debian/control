@@ -20,7 +20,7 @@ Build-Depends: cmake (>= 3.0~),
                libkf5mailtransport-dev (>= 16.04.0~),
                libkf5wallet-dev (>= 5.35.0~),
                pkg-kde-tools (>> 0.15.15),
-               qtbase5-dev (>= 5.7.0~),
+               qtbase5-dev (>= 5.7.0~)
 Standards-Version: 4.0.1
 Homepage: https://projects.kde.org/projects/kde/pim/akonadi-calendar
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-calendar.git
@@ -34,7 +34,7 @@ Depends: libkf5akonadi-dev (>= 4:5.6.0~),
          libkf5akonadicontact-dev (>= 5.6.0~),
          libkf5calendarcore-dev (>= 4:5.6.0~),
          libkf5contacteditor-dev,
-         ${misc:Depends},
+         ${misc:Depends}
 Description: akonadi-calendar - development files
  This library offers helper functions to integrate the use of Akonadi calendar
  items in applications.
