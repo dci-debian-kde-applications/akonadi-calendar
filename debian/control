@@ -3,24 +3,24 @@ Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake (>= 2.8.12~),
+Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.23.0~),
+               extra-cmake-modules (>= 5.35.0~),
                kio-dev (>= 5.23.0~),
                libkf5akonadi-dev (>= 4:15.12~),
                libkf5akonadicontact-dev (>= 4:15.12~),
                libkf5calendarcore-dev (>= 4:15.12~),
                libkf5calendarutils-dev (>= 15.12~),
-               libkf5codecs-dev (>= 5.23.0~),
+               libkf5codecs-dev (>= 5.35.0~),
                libkf5contacteditor-dev (>= 17.04.0~),
                libkf5contacts-dev (>= 15.12~),
                libkf5identitymanagement-dev (>= 15.12~),
                libkf5kdelibs4support-dev (>= 5.12.0~),
-               libkf5kio-dev (>= 5.23.0~),
+               libkf5kio-dev (>= 5.35.0~),
                libkf5mailtransport-dev (>= 16.04.0~),
-               libkf5wallet-dev (>= 5.23.0~),
+               libkf5wallet-dev (>= 5.35.0~),
                pkg-kde-tools (>> 0.15.15),
-               qtbase5-dev (>= 5.2.0~)
+               qtbase5-dev (>= 5.7.0~),
 Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/kde/pim/akonadi-calendar
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-calendar.git
@@ -29,12 +29,12 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/akonadi-calendar.gi
 Package: libkf5akonadicalendar-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5akonadi-dev (>= 4:5.3.2~),
+Depends: libkf5akonadi-dev (>= 4:5.6.0~),
          libkf5akonadicalendar5 (= ${binary:Version}),
-         libkf5akonadicontact-dev (>= 5.3.2~),
-         libkf5calendarcore-dev (>= 5.3.2~),
+         libkf5akonadicontact-dev (>= 5.6.0~),
+         libkf5calendarcore-dev (>= 4:5.6.0~),
          libkf5contacteditor-dev,
-         ${misc:Depends}
+         ${misc:Depends},
 Description: akonadi-calendar - development files
  This library offers helper functions to integrate the use of Akonadi calendar
  items in applications.
