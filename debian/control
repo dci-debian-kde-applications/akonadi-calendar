@@ -46,8 +46,12 @@ Package: libkf5akonadicalendar5
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: ${kde-l10n:all}
-Replaces: ${kde-l10n:all}
+Breaks: kde-l10n-ast (<< 4:17.03.90-0~),
+        kde-l10n-eo (<< 4:17.03.90-0~),
+        ${kde-l10n:all},
+Replaces: kde-l10n-ast (<< 4:17.03.90-0~),
+          kde-l10n-eo (<< 4:17.03.90-0~),
+          ${kde-l10n:all},
 Description: library providing calendar helpers for Akonadi items
  This library offers helper functions to integrate the use of Akonadi calendar
  items in applications.
